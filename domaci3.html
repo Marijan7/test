@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Domaci3</title>
+      </head>
+      <body style="border: 5px solid black">
+            <h1>Enviando un paquete</h1>
+            <!-- forma -->
+
+            <form
+                  action="#"
+                  method="get"
+                  oninput="x.value=parseInt(a.value) + parseInt (b.value) + `kg`"
+            >
+                  <fieldset style="width: 370px">
+                        <legend>información personal</legend>
+                        <label for="ime">Nombre:</label>
+                        <input type="text" id="ime" name="Ime" /> <br />
+                        <label for="nadimak">Apodo:</label>
+                        <input type="text" id="prezime" name="Prezime" /><br />
+                        <label for="sifra">Código:</label>
+                        <input type="text" id="sifra" name="Šifra" />
+                        <br /><br />
+                  </fieldset>
+
+                  <br /><br />
+                  <p>Ciudad:</p>
+                  <input list="grad" name="Grad" />
+                  <datalist id="grad">
+                        <option value="Zagreb"></option>
+                        <option value="Split"></option>
+                        <option value="Rijeka"></option>
+                        <option value="Osijek"></option>
+                        <option value="Medellin"></option>
+                        <option value="Bogota"></option>
+                  </datalist>
+                  <br /><br />
+
+                  <img src="./narcos.jpg" alt="narcos" style="width: 200px" />
+                  <br /><br /><br />
+
+                  <p>Peso del paquete:</p>
+                  0
+                  <input type="range" id="a" name="a" value="50" />
+                  100+
+                  <input type="number" id="b" name="b" value="50" />
+                  =
+                  <output name="x" for="a b"></output>
+                  <br /><br />
+                  <p>Información adicional:</p>
+                  <textarea name="message" style="width: 400px; height: 100px">
+Saca las cosas del carro.
+                  </textarea>
+                  <br /><br />
+
+                  <button type="button" onclick="alert('Poslano')">
+                        Enviar
+                  </button>
+            </form>
+      </body>
+</html>
