@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: beige;
+    }
+
+header {
+        background-image:url(./multimedia/images/priroda/more/beach-clouds.jpg) ;
+        background-repeat: repeat-y;
+        background-position: center;
+        text-align: center;
+    }
+
+label {
+    display: block;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1, h2 {
+   
+    font-family: cursive;
+    color: brown;
+    text-decoration: underline;
+   }
+
+nav {
+    padding: 1em;
+    border: 3px solid brown;
+    display: inline-block;
+   
+    }
+
+#kontakt {
+   text-align: center;
+   border: 5px solid brown;
+   display: inline-block;
+   border-radius: 3em;
+   padding: 1em;
+   }
+
+[href] {
+font-size: x-large;
+font-style: italic;
+color: brown;
+}
+
+[id~=bijeli] {
+font-style: italic;
+}
+
+img {
+    border-radius: 2em;
+   }
+
+
+
+
+
