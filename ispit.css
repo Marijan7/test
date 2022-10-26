@@ -11,7 +11,8 @@ header {
         background-repeat: repeat-y;
         background-position: center;
         text-align: center;
-    }
+        padding: 70px;
+        }
 
 label {
     display: block;
@@ -20,24 +21,15 @@ label {
 h1{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align:center;
 }
 
-h1, h2 {
-   
-   
+  h1, h2 {
     color: brown;
     text-decoration: underline;
    }
 
-nav {
-    padding: 1em;
-    border: 3px solid brown;
-    display: inline-block;
-   
-    }
-
-#kontakt {
+  #kontakt {
    text-align: center;
    border: 5px solid brown;
    display: inline-block;
@@ -46,10 +38,11 @@ nav {
    }
 
 [href] {
-font-size: x-large;
-font-style: italic;
-color: brown;
-}
+    font-size: x-large;
+    font-style: italic;
+    color: brown;
+    background-color: blanchedalmond;
+    }
 
 [id~=bijeli] {
 font-style: italic;
@@ -58,6 +51,23 @@ font-style: italic;
 img{
     border-radius: 3em;
 }
+
+.dropdown{
+    
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display:none;
+    position:relative;
+    
+    
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 
