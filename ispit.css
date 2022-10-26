@@ -8,7 +8,7 @@ body {
 
 header {
         background-image:url(./Multimedia/multimedia/images/priroda/more/beach-clouds.jpg) ;
-        background-repeat: repeat-y;
+        background-repeat: no-repeat;
         background-position: center;
         text-align: center;
         padding: 60px;
