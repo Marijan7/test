@@ -11,7 +11,7 @@ header {
         background-repeat: repeat-y;
         background-position: center;
         text-align: center;
-        padding: 70px;
+        padding: 60px;
         }
 
 label {
@@ -53,16 +53,12 @@ img{
 }
 
 .dropdown{
-    
     display: inline-block;
-    
-}
+    }
 
 .dropdown-content {
     display:none;
     position:relative;
-    
-    
     }
   
   .dropdown:hover .dropdown-content {
